@@ -1,0 +1,35 @@
+name: 报告失效链接
+description: 报告无法访问、已迁移或内容异常的目录链接
+title: "[Broken link]: "
+labels:
+  - broken-link
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 当前链接
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: 问题类型
+      options:
+        - 返回 404 或仓库已删除
+        - 项目已迁移
+        - 内容与描述不符
+        - 疑似恶意或被接管
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: 新地址（如有）
+      placeholder: https://github.com/new-owner/repository
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充说明
+      description: 请提供发现时间、错误信息或迁移依据。
