@@ -41,7 +41,17 @@ python3 scripts/catalog_audit.py README.md --min-links 900 --min-categories 70 -
 - 标题清晰说明变化，正文包含验证方式。
 - 不提交与目录维护无关的生成文件、二进制文件或个人配置。
 - 尊重原项目的许可证、商标和署名要求。
+- 如果使用 AI 或批量工具生成变更，请在 Pull Request 中说明，并由提交者逐项核对链接、描述和分类。
+
+## 维护与治理
+
+- 日常维护流程见 [`docs/MAINTENANCE.md`](docs/MAINTENANCE.md)。
+- 项目决策方式见 [`GOVERNANCE.md`](GOVERNANCE.md)。
+- 当前维护者名单见 [`MAINTAINERS.md`](MAINTAINERS.md)。
+- 一般使用问题见 [`SUPPORT.md`](SUPPORT.md)，敏感安全问题请遵循 [`SECURITY.md`](SECURITY.md)。
 
 ## 行为准则
 
 请保持讨论专业、友善、具体。对项目质量、技术方案和维护状态的评价应基于可验证事实，不攻击个人，也不发布隐私信息。
+
+参与本项目即表示同意遵守 [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)。

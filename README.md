@@ -2,6 +2,8 @@
 
 > 面向 Android 开发者的中文开源项目导航。聚焦可复用的 UI 组件、工程工具、媒体能力、性能优化与优秀源码，帮助开发者更快完成技术选型。
 
+[English](README.en.md) · **简体中文**
+
 [![Catalog health](https://github.com/WayneZ01/Android_open_project/actions/workflows/catalog-health.yml/badge.svg)](https://github.com/WayneZ01/Android_open_project/actions/workflows/catalog-health.yml)
 [![Link check](https://github.com/WayneZ01/Android_open_project/actions/workflows/link-check.yml/badge.svg)](https://github.com/WayneZ01/Android_open_project/actions/workflows/link-check.yml)
 [![Pull requests welcome](https://img.shields.io/badge/PRs-welcome-c5ff4a.svg)](CONTRIBUTING.md)
@@ -11,10 +13,12 @@
 ## 快速入口
 
 - [浏览完整目录](#系统控件)
+- [查看现代 Android 技术栈](#现代-android-技术栈)
 - [推荐新的开源项目](CONTRIBUTING.md#推荐新项目)
 - [报告失效或过时链接](https://github.com/WayneZ01/Android_open_project/issues/new?template=broken-link.yml)
 - [查看维护计划](ROADMAP.md)
 - [了解版本变化](CHANGELOG.md)
+- [了解维护方式](docs/MAINTENANCE.md)
 
 ## 收录原则
 
@@ -27,6 +31,120 @@
 ## 如何参与
 
 欢迎通过 Issue 或 Pull Request 补充项目、修正文案、更新迁移地址与清理失效链接。提交前请阅读 [贡献指南](CONTRIBUTING.md)。维护者会重点检查链接可访问性、分类是否准确、项目是否重复，以及它对当前 Android 开发是否仍有价值。
+
+## 现代 Android 技术栈
+
+本区聚焦当前 Android 工程实践，2026-10-22 完成首轮整理。旧项目仍保留在后面的历史目录中，方便迁移、维护遗留应用和源码学习。
+
+### 官方示例与参考应用
+
+- [Now in Android：Google 官方的完整 Compose 架构参考应用](https://github.com/android/nowinandroid)
+- [Compose Samples：Jetpack Compose 官方场景示例集合](https://github.com/android/compose-samples)
+- [Architecture Samples：Android 应用架构模式示例](https://github.com/android/architecture-samples)
+- [Architecture Components Samples：Lifecycle、Room、Paging 等组件示例](https://github.com/android/architecture-components-samples)
+- [Sunflower：结合 Jetpack 与 Compose 的官方示例应用](https://github.com/android/sunflower)
+- [Android Testing Samples：仪器测试与 UI 测试参考项目](https://github.com/android/testing-samples)
+- [Camera Samples：CameraX 与相机能力官方示例](https://github.com/android/camera-samples)
+- [Media Samples：Media3、播放与媒体会话官方示例](https://github.com/android/media-samples)
+- [Wear OS Samples：Wear OS 与 Compose for Wear 示例](https://github.com/android/wear-os-samples)
+- [Health Samples：Health Connect 与健康服务示例](https://github.com/android/health-samples)
+
+### Compose 与现代 UI
+
+- [AndroidX：Jetpack 与 Compose 核心组件源码](https://github.com/androidx/androidx)
+- [Compose Multiplatform：跨 Android、iOS、桌面和 Web 的声明式 UI](https://github.com/JetBrains/compose-multiplatform)
+- [Coil：Kotlin 与 Compose 优先的图片加载库](https://github.com/coil-kt/coil)
+- [Landscapist：Compose 图片加载与动画组件](https://github.com/skydoves/landscapist)
+- [Accompanist：Compose 实验性能力与迁移组件集合](https://github.com/google/accompanist)
+- [Molecule：使用 Compose Runtime 构建状态生产器](https://github.com/cashapp/molecule)
+- [Circuit：Compose 与 Kotlin Multiplatform 的应用架构框架](https://github.com/slackhq/circuit)
+- [Compose Shimmer：轻量的 Compose 骨架屏动画](https://github.com/valentinilk/compose-shimmer)
+- [Lottie Android：在 Android 与 Compose 中渲染 Lottie 动画](https://github.com/airbnb/lottie-android)
+
+### 架构、状态与依赖注入
+
+- [Dagger：Google 维护的编译期依赖注入框架](https://github.com/google/dagger)
+- [Koin：面向 Kotlin 与 Compose Multiplatform 的依赖注入框架](https://github.com/InsertKoinIO/koin)
+- [Workflow Kotlin：用状态机组织复杂 UI 与业务流程](https://github.com/square/workflow-kotlin)
+- [Decompose：Kotlin Multiplatform 生命周期与导航组件](https://github.com/arkivanov/Decompose)
+- [Orbit MVI：基于 Kotlin 协程的 MVI 状态管理框架](https://github.com/orbit-mvi/orbit-mvi)
+- [FlowRedux：基于 Flow 的 Redux 状态容器](https://github.com/freeletics/FlowRedux)
+- [Store：面向 Kotlin 应用的数据加载与缓存抽象](https://github.com/dropbox/Store)
+
+### 网络、异步与数据层
+
+- [Kotlin Coroutines：Kotlin 协程与 Flow](https://github.com/Kotlin/kotlinx.coroutines)
+- [Kotlin Serialization：多平台序列化框架](https://github.com/Kotlin/kotlinx.serialization)
+- [OkHttp：Android 与 JVM 的 HTTP 客户端](https://github.com/square/okhttp)
+- [Retrofit：类型安全的 HTTP API 客户端](https://github.com/square/retrofit)
+- [Apollo Kotlin：GraphQL 客户端与代码生成工具](https://github.com/apollographql/apollo-kotlin)
+- [SQLDelight：从 SQL 生成类型安全的 Kotlin 数据访问代码](https://github.com/cashapp/sqldelight)
+- [Realm Kotlin：面向 Kotlin Multiplatform 的本地数据库](https://github.com/realm/realm-kotlin)
+- [Kotlinx Collections Immutable：持久化不可变集合](https://github.com/Kotlin/kotlinx.collections.immutable)
+- [Kotlinx Datetime：Kotlin Multiplatform 日期时间库](https://github.com/Kotlin/kotlinx-datetime)
+
+### Kotlin Multiplatform
+
+- [Kotlin：Kotlin 编译器、标准库与多平台基础设施](https://github.com/JetBrains/kotlin)
+- [KaMPKit：Android 与 iOS 共享 Kotlin 代码的参考项目](https://github.com/touchlab/KaMPKit)
+- [SKIE：改善 Kotlin 与 Swift 互操作体验](https://github.com/touchlab/SKIE)
+- [KMP-NativeCoroutines：将 Kotlin 协程桥接到 Swift async/await](https://github.com/rickclephas/KMP-NativeCoroutines)
+- [Multiplatform Settings：跨平台键值存储抽象](https://github.com/russhwolf/multiplatform-settings)
+- [moko-resources：Kotlin Multiplatform 资源访问工具](https://github.com/icerockdev/moko-resources)
+- [Kermit：Kotlin Multiplatform 日志库](https://github.com/touchlab/Kermit)
+- [Napier：轻量 Kotlin Multiplatform 日志库](https://github.com/AAkira/Napier)
+- [kaml：Kotlin Multiplatform YAML 序列化库](https://github.com/charleskorn/kaml)
+
+### AI 与端侧机器学习
+
+- [Android AI Samples：Android 端侧生成式 AI 与 Gemini Nano 示例](https://github.com/android/ai-samples)
+- [Google AI Edge Gallery：在移动设备上探索和运行端侧模型](https://github.com/google-ai-edge/gallery)
+- [LiteRT：Google AI Edge 的高性能端侧推理运行时](https://github.com/google-ai-edge/LiteRT)
+- [MediaPipe：跨平台实时感知与多媒体机器学习方案](https://github.com/google-ai-edge/mediapipe)
+- [LiteRT-LM：面向端侧大语言模型的高性能推理框架](https://github.com/google-ai-edge/LiteRT-LM)
+- [Google Generative AI Android：Gemini Android SDK 示例](https://github.com/google-gemini/generative-ai-android)
+- [ONNX Runtime：支持 Android 的跨平台模型推理运行时](https://github.com/microsoft/onnxruntime)
+- [MLC LLM：在移动端与本地设备部署大语言模型](https://github.com/mlc-ai/mlc-llm)
+
+### 测试、质量与性能
+
+- [Performance Samples：Macrobenchmark、Baseline Profile 等官方示例](https://github.com/android/performance-samples)
+- [LeakCanary：Android 内存泄漏检测工具](https://github.com/square/leakcanary)
+- [Paparazzi：无需模拟器的 Android UI 截图测试](https://github.com/cashapp/paparazzi)
+- [Turbine：Kotlin Flow 测试库](https://github.com/cashapp/turbine)
+- [Robolectric：在 JVM 上运行 Android 单元测试](https://github.com/robolectric/robolectric)
+- [MockK：Kotlin 原生风格的 Mock 框架](https://github.com/mockk/mockk)
+- [Maestro：移动应用端到端 UI 测试框架](https://github.com/mobile-dev-inc/Maestro)
+- [Kaspresso：基于 Espresso 与 UI Automator 的测试框架](https://github.com/KasperskyLab/Kaspresso)
+- [Detekt：Kotlin 静态代码分析工具](https://github.com/detekt/detekt)
+- [ktlint：Kotlin 代码风格检查与格式化工具](https://github.com/pinterest/ktlint)
+- [NullAway：面向 Java 与 Android 的空指针静态分析工具](https://github.com/uber/NullAway)
+
+### 构建、依赖与发布
+
+- [Gradle：Android 构建系统的基础自动化平台](https://github.com/gradle/gradle)
+- [Gradle Actions：在 GitHub Actions 中缓存并运行 Gradle](https://github.com/gradle/actions)
+- [Setup Android：在 GitHub Actions 中配置 Android SDK](https://github.com/android-actions/setup-android)
+- [Android Emulator Runner：在 CI 中运行硬件加速模拟器测试](https://github.com/ReactiveCircus/android-emulator-runner)
+- [Bundletool：构建和检查 Android App Bundle](https://github.com/google/bundletool)
+- [Dependency Analysis Gradle Plugin：分析未使用及错误声明的依赖](https://github.com/autonomousapps/dependency-analysis-gradle-plugin)
+- [Spotless：统一 Kotlin、Java 与 Gradle 文件格式](https://github.com/diffplug/spotless)
+- [Gradle Maven Publish Plugin：简化 Android/Kotlin 库发布](https://github.com/vanniktech/gradle-maven-publish-plugin)
+- [Fastlane：自动化构建、签名与应用商店发布流程](https://github.com/fastlane/fastlane)
+- [Danger Kotlin：在 Pull Request 中自动执行团队规则](https://github.com/danger/kotlin)
+- [Renovate：自动更新 Gradle、GitHub Actions 等依赖](https://github.com/renovatebot/renovate)
+
+### 安全、隐私与无障碍
+
+- [OWASP MASTG：移动应用安全测试指南与案例](https://github.com/OWASP/owasp-mastg)
+- [Tink：Google 维护的多语言密码学 API](https://github.com/tink-crypto/tink)
+- [ProGuard：Java 与 Android 字节码压缩、优化和混淆工具](https://github.com/Guardsquare/proguard)
+- [Accessibility Test Framework for Android：自动发现常见无障碍问题](https://github.com/google/Accessibility-Test-Framework-for-Android)
+- [TalkBack：Android 官方屏幕阅读器源码](https://github.com/google/talkback)
+- [App Manager：开源 Android 应用管理与隐私分析工具](https://github.com/MuntashirAkon/AppManager)
+- [Firebase Android SDK：包含 Crashlytics、性能监控等生产能力](https://github.com/firebase/firebase-android-sdk)
+- [Sentry Java：Android/JVM 崩溃与性能可观测性 SDK](https://github.com/getsentry/sentry-java)
+- [Datadog Android SDK：移动端日志、追踪、RUM 与崩溃监控](https://github.com/DataDog/dd-sdk-android)
 
 ## 系统控件
 
