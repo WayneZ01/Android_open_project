@@ -2,6 +2,17 @@
 
 这里保存从主目录移出的历史条目。链接可能已经删除、迁移或不再公开；保留记录是为了后续查找新地址和避免重复调查。
 
+## 2026-10-22：无法连接的旧站点
+
+* [Android 多状态加载布局的开发 Tips](http://gudong.name/2017/04/26/loading_layout_practice.html)
+  - 原地址：http://gudong.name/2017/04/26/loading_layout_practice.html
+* [可以实现好多种音效的播放器](http://android-openslmediaplayer.h6ah4i.com/#carousel-demoapp-1)
+  - 原地址：http://android-openslmediaplayer.h6ah4i.com/#carousel-demoapp-1
+* [CSDN直播技术相关集合](http://lib.csdn.net/base/liveplay)
+  - 原地址：http://lib.csdn.net/base/liveplay
+* [拆轮子-唯美细腻的夕阳海浪动画](http://immortalz.me/559.html)
+  - 原地址：http://immortalz.me/559.html
+
 ## 2026-10-22：HTTP 404 基线清理
 
 * [阅读更多TextView](https://github.com/borjabravo10/ReadMoreTextView)
