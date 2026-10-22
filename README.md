@@ -98,10 +98,10 @@
 ### AI 与端侧机器学习
 
 - [Android AI Samples：Android 端侧生成式 AI 与 Gemini Nano 示例](https://github.com/android/ai-samples)
-- [Google AI Edge Gallery：在移动设备上探索和运行端侧模型](https://github.com/google-ai-edge/ai-edge-gallery)
+- [Google AI Edge Gallery：在移动设备上探索和运行端侧模型](https://github.com/google-ai-edge/gallery)
 - [LiteRT：Google AI Edge 的高性能端侧推理运行时](https://github.com/google-ai-edge/LiteRT)
 - [MediaPipe：跨平台实时感知与多媒体机器学习方案](https://github.com/google-ai-edge/mediapipe)
-- [AI Edge APIs：Google AI Edge API 示例与工具](https://github.com/google-ai-edge/ai-edge-apis)
+- [LiteRT-LM：面向端侧大语言模型的高性能推理框架](https://github.com/google-ai-edge/LiteRT-LM)
 - [Google Generative AI Android：Gemini Android SDK 示例](https://github.com/google-gemini/generative-ai-android)
 - [ONNX Runtime：支持 Android 的跨平台模型推理运行时](https://github.com/microsoft/onnxruntime)
 - [MLC LLM：在移动端与本地设备部署大语言模型](https://github.com/mlc-ai/mlc-llm)
