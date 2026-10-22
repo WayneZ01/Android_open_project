@@ -57,7 +57,7 @@
   - 原地址：https://github.com/pengjianbo/FileDownloaderFinal
 * [基于ijkplayer简单的UI界面 当前项目是基于ijkplayer项目进行的播放器界面UI封装。 是一个适用于 Android 的 RTMP 直播推流 SDK，可高度定制化和二次开发](https://github.com/jjdxmashl/jjdxm_ijkplayer/)
   - 原地址：https://github.com/jjdxmashl/jjdxm_ijkplayer/
-](https://github.com/supercwn/SuperPlayer?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+* [基于 ijkplayer 的 Android 视频播放器 SuperPlayer](https://github.com/supercwn/SuperPlayer?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
   - 原地址：https://github.com/supercwn/SuperPlayer?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
 * [节操播放器](https://github.com/lipangit/jiecaovideoplayer/blob/develop/README-ZH.md)
   - 原地址：https://github.com/lipangit/jiecaovideoplayer/blob/develop/README-ZH.md
