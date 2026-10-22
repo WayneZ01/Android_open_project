@@ -1,0 +1,27 @@
+name: Catalog Health
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - README.md
+      - scripts/catalog_audit.py
+      - .github/workflows/catalog-health.yml
+  pull_request:
+    paths:
+      - README.md
+      - scripts/catalog_audit.py
+      - .github/workflows/catalog-health.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Audit catalog structure
+        run: python3 scripts/catalog_audit.py README.md --min-links 900 --min-categories 70 --max-duplicates 0

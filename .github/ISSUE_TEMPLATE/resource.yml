@@ -1,0 +1,36 @@
+name: 推荐开源项目
+description: 推荐一个值得收录的 Android 或移动开发项目
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: input
+    id: url
+    attributes:
+      label: 项目地址
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: 项目价值
+      description: 请说明它解决什么问题，以及为什么值得收录。
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: 建议分类
+      placeholder: 例如 Jetpack Compose / 网络 / 性能优化
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交检查
+      options:
+        - label: 我已确认该项目公开可访问并且不是目录中的重复项。
+          required: true
+        - label: 我已阅读贡献指南，并确认项目与 Android 或移动开发直接相关。
+          required: true
